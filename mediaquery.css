@@ -1,4 +1,7 @@
 @media screen  and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     iframe{
         display: block;
         height: 500px;
@@ -6,36 +9,26 @@
         margin-left: 330px;
         margin-top: 0px;
     }
-    nav{
-        display: block;
-    }
-    #bur{
-        display: none;
-    }
+
+    
 }
 @media screen  and (min-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
     iframe{
         display: block;
         height: 500px;
         width: 650px;
     }
-    nav{
-        display: block;
-    }
-    #bur{
-        display: none;
-    }
 }
 @media screen  and (min-width: 1200px){
+    body{
+        overflow-x: hidden;
+    }
     iframe{
         display: block;
         height: 500px;
         width: 820px;
-    }
-    nav{
-        display: block;
-    }
-    #bur{
-        display: none;
     }
 }
