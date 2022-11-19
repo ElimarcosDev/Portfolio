@@ -7,10 +7,22 @@
     <link rel="shortcut icon" href="http://127.0.0.1:5500/imagens/110783938.png" type="image/x-icon">
     <title>Repositorio</title>
     <link rel="stylesheet" href="allstyle.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 </head>
 <body>
-    <nav>
-        <h1>&#127761;</h1>
+    <i onclick="menuonoff()" id="bur" class="material-icons">menu</i>
+    <nav id="menu">
+        <ul>
+            <li><img class="imenu
+                " src="" alt=""></li>
+            <li><img class="imenu
+                " src="" alt=""></li>
+            <li><img class="imenu
+                " src="" alt=""></li>
+            <li><img class="imenu
+                " src="" alt=""></li>
+        </ul>
     </nav>
     <main>
         <div id="usu">
@@ -20,17 +32,18 @@
         
         <div id="repo">
             <h2>Projetos</h2>
-            <abbr title="Projeto Android"><a target="preview" href="https://elimarcosdev.github.io/android-projeto/curiosidades.html"><img class="image" src="imagens/android.png" alt="android"></a></abbr>
+            <abbr title="Projeto Android"><a target="preview" href="https://elimarcosdev.github.io/android-projeto/curiosidades.html"><img onclick="preview()" class="image" src="imagens/android.png" alt="android"></a></abbr>
 
-            <abbr title="Projeto IMC"><a target="preview" href="https://elimarcosdev.github.io/projeto-IMC/index.html"><img class="image" src="imagens/imc.png" alt="IMC"></a></abbr>
+            <abbr title="Projeto IMC"><a target="preview" href="https://elimarcosdev.github.io/projeto-IMC/index.html"><img onclick="preview()" class="image" src="imagens/imc.png" alt="IMC"></a></abbr>
 
-            <abbr title="Projeto Cordel"><a target="preview" href="https://elimarcosdev.github.io/projeto-cordel/index.html"><img class="image" src="imagens/cordel.png" alt="cordel"></a></abbr>
+            <abbr title="Projeto Cordel"><a target="preview" href="https://elimarcosdev.github.io/projeto-cordel/index.html"><img onclick="preview()" class="image" src="imagens/cordel.png" alt="cordel"></a></abbr>
 
-            <abbr title="Projeto Hora do dia"><a target="preview" href="https://elimarcosdev.github.io/projeto-hora-do-dia/index.html"><img class="image" src="imagens/hora.png" alt="hora do dia"></a></abbr>
+            <abbr title="Projeto Hora do dia"><a target="preview" href="https://elimarcosdev.github.io/projeto-hora-do-dia/index.html"><img onclick="preview()" class="image" src="imagens/hora.png" alt="hora do dia"></a></abbr>
         </div>
         <div>
-            <iframe name="preview" frameborder="0"></iframe>
+            <iframe id="preview" name="preview" frameborder="0"></iframe>
         </div>
     </main>
 </body>
+<script src="code.js"></script>
 </html>
