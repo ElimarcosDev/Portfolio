@@ -1,7 +1,3 @@
-function preview(){
-    var prev = document.getElementsByTagName(iframe)
-    prev.style.display = 'block'
-}
 function menuonoff(){
     var menu = document.getElementById('menu')
     if ( menu.style.display == 'inline-block'){
@@ -10,4 +6,10 @@ function menuonoff(){
     else{
         menu.style.display = 'inline-block'
     }
+    
+}
+
+function preview(){
+    var projetos = document.getElementsByClassName('image')
+    projetos.getAttribute("src", "https://elimarcosdev.github.io/android-projeto/curiosidades.html")
 }
