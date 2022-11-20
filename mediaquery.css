@@ -9,11 +9,14 @@
         margin-left: 330px;
         margin-top: 0px;
     }
+    /*
     .imenu{
         position: relative;
         transform: translate(-700%, 0%);
         
     }
+    */
+   
     
 }
 @media screen  and (min-width: 1024px){
@@ -25,11 +28,13 @@
         height: 500px;
         width: 650px;
     }
+    /*
     .imenu{
         position: relative;
         transform: translate(-1000%, 0%);
         
     }
+    */
 }
 @media screen  and (min-width: 1200px){
     body{
@@ -40,9 +45,11 @@
         height: 500px;
         width: 820px;
     }
+    /*
     .imenu{
         position: relative;
         transform: translate(-1300%, 0%);
         
     }
+    */
 }
