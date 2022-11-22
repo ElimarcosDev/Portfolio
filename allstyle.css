@@ -98,7 +98,12 @@ header > h1{
     width: 270px;
     transform: translate(-49%, -7%);
     transition: transform 1s;
-    box-shadow: 0px 0px 25px rgb(17, 17, 56);
+    border-style: solid;
+    box-shadow: 0px 0px 30px rgb(17, 17, 56);
+}
+.image:active{
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
 }
 iframe{
     height: 500px;
